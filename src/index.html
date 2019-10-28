@@ -3,76 +3,195 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Задание 4 после выгрузки2</title>
+    <title>Курс «Веб-разработка с нуля»</title>
   </head>
   <body>
-    <h1>Курс «Веб-разработка с нуля»</h1>
-    <p>
-      Cамым популярным запросом новичков-разработчиков является «веб-разработка
-      с чего начать». И правда, самостоятельно определить точку начала обучения
-      практически невозможно. Сфера наполнена большим количеством различных
-      инструментов, а значит требует целого набора навыков.
-    </p>
-    <h2>Начни прямо сейчас. 1 этап HTML</h2>
+    
+    <h2>Списки Lists</h2>
+    <h3>Неупорядоченный список Unordered List</h3>
 
-    <abbr title="Hyper Markup Language">HTML</abbr> is so cool! We start
-    learning.
-    <br />
-    <b>20.10.2019</b> Начало занятий!
-    <blockquote cite="WSh">To be or not to be!</blockquote>
-    Размышления оставим Шекспиру, а нам надо учиться.
-    <br /><cite>Mona Lisa</cite> was created by Leonardo da Vinci Он уже внес
-    вклад в историю. <br />
-    <b>А ты готов стать великим web разработчиком.</b>
-    <br />
-    <h2>Веб-стараница имеет</h2>
-    <dfn title="Hyper Markup Language">HTML</dfn> - Hyper Markup Language<br />
-    <dfn title="CSS">CSS</dfn> - Styles - изменяем стили и делаем красиво
-    <dfn title="JS">JS</dfn> - Scrips
-    <br />
-    <code>console.log('code')</code> - так выглядет код JS. Он может "оживить"
-    твои страницы HTML.
-    <h3>Работа с текстом</h3>
-    <p>На странице должны быть заголовки.</p>
-    <p>
+    <ul>
+      <li>Первый пункт</li>
+      <li>Второй пункт</li>
+      <li>Второй пункт</li>
+    </ul>
+
+    <ul type="circle">
+      <li>Первый пункт</li>
+      <li>Второй пункт</li>
+      <li>Второй пункт</li>
+    </ul>
+
+    <ul type="square">
+      <li>Первый пункт</li>
+      <li>Второй пункт</li>
+      <li>Второй пункт</li>
+    </ul>
+
+    <ul type="none">
+      <li>Первый пункт</li>
+      <li>Второй пункт</li>
+      <li>Второй пункт</li>
+    </ul>
+
+    <h3>Упорядоченный список Ordered List</h3>
+
+    <ol>
+      <li>Первый пункт</li>
+      <li>Второй пункт</li>
+      <li>Второй пункт</li>
+    </ol>
+
+    <ol type="A">
+      <li>Первый пункт</li>
+      <li>Второй пункт</li>
+      <li>Второй пункт</li>
+    </ol>
+
+    <ol type="I">
+      <li>Первый пункт</li>
+      <li>Второй пункт</li>
+      <li>Второй пункт</li>
+    </ol>
+
+    <ol type="1">
+      <li>Первый пункт</li>
+      <ol type="a">
+        <li>Первый подпункт</li>
+        <li>Второй подпункт</li>
+        <li>Второй подпункт</li>
+      </ol>
+      <li>Второй пункт</li>
+      <li>Второй пункт</li>
+    </ol>
+
+    <ol start="25" type="1">
+      <li>Первый пункт</li>
+      <ol type="a">
+        <li>Первый подпункт</li>
+        <li>Второй подпункт</li>
+        <li>Второй подпункт</li>
+      </ol>
+      <li>Второй пункт</li>
+      <li>Второй пункт</li>
+    </ol>
+
+    <ol reversed>
+      <li>Первый пункт</li>
+      <ol type="a" reversed>
+        <li>Первый подпункт</li>
+        <li>Второй подпункт</li>
+        <li>Второй подпункт</li>
+      </ol>
+      <li>Второй пункт</li>
+      <li>Второй пункт</li>
+     </ol>
+
+    <ol start="5" type="A">
+      <li>Первый пункт</li>
+      <ol type="a">
+        <li>Первый подпункт</li>
+        <li>Второй подпункт</li>
+        <li>Второй подпункт</li>
+    </ol>
+      <li>Второй пункт</li>
+      <li>Второй пункт</li>
+    </ol>
+
+    <hr />
+
+    <h3>Список определений Description List</h3>
+
+    обозначают какое-то понятие, термин (description term) - тег
+      <dt>
+    описывают каждое из этих понятий (description data) - тег
+      </dt>
+    </p>
+    <dd>
+      <dl>
+        <dt>Кофе</dt>
+        <dd>20 грн</dd>
+        <dt>Вода</dt>
+        <dd>10 грн</dd>
+      </dl>
+      <dl>
+        <dt>Продукты:</dt>
+        <dd>молоко</dd>
+        <dd>хлеб</dd>
+        <dd>йогутр</dd>
+        <dt>Фрукты:</dt>
+        <dd>Яблоко</dd>
+        <dd>Груша</dd>
+        <dd>Слива</dd>
+      </dl>
+      <hr>
+
+      <h2>Теги HTML</h2>
+      <p>
+        Параграф
+      </p>
+      <abbr title="Hyper Markup Language">HTML</abbr> is so cool! We start
+      learning.
+      <br />
+      <b>20.10.2019</b> Начало занятий!
+      <blockquote cite="WSh">To be or not to be!</blockquote>
+      Размышления оставим Шекспиру, а нам надо учиться.
+      <br /><cite>Mona Lisa</cite> was created by Leonardo da Vinci Он уже внес
+      вклад в историю. <br />
+      <b>А ты готов стать великим web разработчиком.</b>
+      <br />
+      <h2>Веб-стараница имеет</h2>
+      <dfn title="Hyper Markup Language">HTML</dfn> - Hyper Markup Language<br />
+      <dfn title="CSS">CSS</dfn> - Styles - изменяем стили и делаем красиво
+      <dfn title="JS">JS</dfn> - Scrips
+      <br />
+      <code>console.log('code')</code> - так выглядет код JS. Он может "оживить"
+      твои страницы HTML.
+      <h3>Работа с текстом</h3>
+      <p>На странице должны быть заголовки.</p>
+      <p>
       Самый большой заголовок <del>h2</del> <ins>h1</ins> Самый маленький h6
-    </p>
+      </p>
 
-    <br />
-    <em> I like coding </em> - добавляем эмоциональности в текст, если нужно
-    выделить.
-    <br />
-    Хочещь курсив - добавь тег <code> i </code> <br />
-    Например,<i> Hello </i>
-    <br />
-    Text <mark>is impotant</mark> <br />
-    <p>Text Text Text</p>
-    <pre>
+      <br />
+      <em> I like coding </em> - добавляем эмоциональности в текст, если нужно
+      выделить.
+      <br />
+      Хочещь курсив - добавь тег <code> i </code> <br />
+      Например,<i> Hello </i>
+      <br />
+      Text <mark>is impotant</mark> <br />
+      <p>Text Text Text</p>
+      <pre>
       Text    with    whitespace
          apple   peach
-    </pre>
-    <p>A lot of text, <small>small text</small> last text</p>
-    <strong>Very impotant</strong>
-    <p>We love <u>HTML</u></p>
-    I love <s>you</s> me <br />
+      </pre>
+      <p>A lot of text, <small>small text</small> last text</p>
+      <strong>Very impotant</strong>
+      <p>We love <u>HTML</u></p>
+      I love <s>you</s> me <br />
 
-    <h3>Клавиатурные сокращения</h3>
-    <kbd>Ctrl+S</kbd> - saves the file <br />
-    <kbd>Ctrl+a</kbd> - select all <br />
-    <h3>Может понадобиться</h3>
-    <progress value="56" max="150"></progress> <br />
-    <code>const a = 5+5</code> <br />
-    <samp>Result: 10</samp>
-    <meter value="5" min="0" max="10"></meter> <br />
-    <p>2<sub>x</sub></p>
-    <p>2<sup>x</sup></p>
-    А тут скрытый текст. Вы его видите? Нет. Так и должно быть.
-    <template>
-      Скрыть текст
-    </template>
-    <br />
-    <br />
-    <b>Нас просто найти</b><br />
-    <address>г. Харьков, ул. Сумская, 4 <br />zip code 1234</address>
+      <h3>Клавиатурные сокращения</h3>
+      
+      <kbd>Ctrl+S</kbd> - saves the file <br />
+      <kbd>Ctrl+a</kbd> - select all <br />
+      
+      <h3>Может понадобиться</h3>
+      
+      <progress value="56" max="150"></progress> <br />
+      <code>const a = 5+5</code> <br />
+      <samp>Result: 10</samp>
+      <meter value="5" min="0" max="10"></meter> <br />
+      <p>2<sub>x</sub></p>
+      <p>2<sup>x</sup></p>
+      А тут скрытый текст. Вы его видите? Нет. Так и должно быть.
+      <template>
+        Скрыть текст
+      </template>
+      <br />
+      <br />
+      <b>Нас просто найти</b><br />
+      <address>г. Харьков, ул. Сумская, 4 <br />zip code 1234</address>
+   
   </body>
 </html>

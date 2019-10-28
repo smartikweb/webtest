@@ -1,2 +1,2 @@
 import "../styles/index.scss";
-alert("webpack starterkit");
+//alert("webpack starterkit");
