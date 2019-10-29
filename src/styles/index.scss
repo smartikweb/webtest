@@ -15,3 +15,17 @@ p {
 code {
   color: crimson;
 }
+table,
+td {
+  border: 1px solid black;
+}
+thead {
+  color: rgb(48, 197, 48);
+  text-align: left;
+}
+tbody {
+  color: blue;
+}
+tfoot {
+  color: rgb(228, 96, 20);
+}
