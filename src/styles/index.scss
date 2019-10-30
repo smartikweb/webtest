@@ -15,17 +15,40 @@ p {
 code {
   color: crimson;
 }
+table {
+  border-collapse: collapse;
+}
+caption {
+  margin: 30px;
+  color: blue;
+  font-size: 20px;
+  font-weight: 600;
+}
 table,
+tr,
 td {
   border: 1px solid black;
+  padding: 5px;
 }
 thead {
-  color: rgb(48, 197, 48);
-  text-align: left;
-}
-tbody {
-  color: blue;
+  color: rgb(60, 64, 124);
+  text-align: center;
 }
 tfoot {
-  color: rgb(228, 96, 20);
+  color: blue;
+  font-weight: 600;
 }
+th {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+/* col {
+  border: 3px solid blue;
+} */
+/* tbody {
+  color: blue;
+} */
+/* tfoot {
+  color: rgb(228, 96, 20);
+} */
