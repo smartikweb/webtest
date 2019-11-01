@@ -6,9 +6,234 @@
     <title>Курс «Веб-разработка с нуля»</title>
   </head>
   <body>
-    <h2>Таблицы 02 </h2>
+    <h2>Картинки</h2>
+    <img src="../src/assets/ship.jpg" alt="Корабль викингов">
+    <figcaption>Корабль викингов</figcaption>
+    <img src="https://fotooboi.org.ua/images/product_images/info_images/fotooboi-parusnik-10168.jpg" 
+    alt="<Белый парусник"
+    width="500px"
+    height=""
+    />
+    <figcaption>Парусник</figcaption>
+    <br>
+    <p><b>Картинка-ссылка</b></p>
+    <a target="_blank" href="https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D1%83%D1%81%D0%BD%D0%BE%D0%B5_%D1%81%D1%83%D0%B4%D0%BD%D0%BE">
+      <img src="https://fotooboi.org.ua/images/product_images/info_images/fotooboi-parusnik-10168.jpg" 
+      alt="<Белый парусник"
+      width="500px"
+      height=""
+      />
+    <figcaption>Парусник</figcaption>
+  
+    </a>
+    <h2>Ссылки </h2>
+    <a target="_blank" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS4qzLZxAAdOVNqEkFNaqLol-8D3ZqbV8wvcT3eg6lsUIPv6i9a">Корабль викингов</a>
+    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS4qzLZxAAdOVNqEkFNaqLol-8D3ZqbV8wvcT3eg6lsUIPv6i9a">Корабль викингов</a>
+    <h2>Задание 1: Таблицы </h2>
+    <h3>Перввая таблица </h3>
     <table>
-      <colgroup>
+         <thead>
+          <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Модуль 2 - ProFrontend</th>
+          </tr>
+          <tr>
+            <th colspan="2">План</th>
+            <th rowspan="2">Тема</th>
+          </tr>
+          <tr>
+            <th>Начало</th>
+            <th>Конец</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+          <tr>
+            <td rowspan="2">Понедельник</td>
+            <td rowspan="2">20.00</td>
+            <td rowspan="2">21.00</td>
+            <td>НTML: Списки</td>
+          </tr>
+          <tr><td>НTML: Таблицы</td></tr>
+          <tr>
+            <td>Среда</td>
+            <td>19.00</td>
+            <td>22.00</td>
+            <td>HTML: Ссылки и картинки</td>
+          </tr>
+          <tr>
+              <td>Пятница</td>
+              <td>21.00</td>
+              <td>22.00</td>
+              <td>Домашка</td>
+            </tr>
+        </tbody>
+        <tfoot>
+         <!-- Нет footer у таблицы -->
+        </tfoot>
+      </table>
+    
+    <h3>Вторая таблица со * </h3>
+    <p>Заготовка</p>
+    <table>
+      <thead>
+        <!-- Нет header у таблицы -->
+      </thead>
+      <tbody>
+          <tr>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>     
+            </tr>
+            <tr>тзь
+              <td>4</td>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>14</td>
+              <td>15</td>
+            </tr>
+      </tbody>
+      <tfoot>
+        <!-- Нет footer у таблицы -->
+      </tfoot>
+    </table>
+  <hr>
+  <h4>Вариант 1</h4>
+    <table>
+        <thead>
+           <!-- Нет header у таблицы -->        
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="6">Первый</td>
+            <td>Второй</td>
+            <td rowspan="3" colspan="3">Третий</td>     
+          </tr>
+          <tr>
+            <td colspan="3">Четвертый</td>
+            <td rowspan="2">Пятый</td>
+            <td colspan="2">Шестой</td>
+            <td>Седьмой</td>
+          </tr>
+          <tr>
+            <td colspan="3" rowspan="2">Восьмой</td>
+            <td colspan="2">Девятый</td>
+            <td>Десятый</td>
+          </tr>
+          <tr>
+            <td colspan="4">Одиннадцатый</td>
+            <td colspan="3">Девенадцатый</td>
+          </tr>
+          <tr>
+            <td colspan="3">Тринадцатый</td>
+            <td>Четрыйнадцатый</td>
+            <td colspan="6">Пятнадцатый</td>
+        </tbody>
+        <tfoot>
+          <!-- Нет footer у таблицы -->
+        </tfoot>
+        </table>
+  <hr>
+  <h4>Вариант 2</h4>
+    <table>
+      <thead>
+        <!-- Нет header у таблицы -->
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="6">1</td>
+          <td>2</td>
+          <td rowspan="3" colspan="3">3</td>     
+        </tr>
+        <tr>
+          <td colspan="3">4</td>
+          <td rowspan="2">5</td>
+          <td colspan="2">6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td colspan="3" rowspan="2">8</td>
+          <td colspan="2">9</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td colspan="4">11</td>
+          <td colspan="3">12</td>
+        </tr>
+        <tr>
+          <td colspan="3">13</td>
+          <td>14</td>
+          <td colspan="6">15</td>
+      </tbody>
+      <tfoot>
+        <!-- Нет footer у таблицы -->
+      </tfoot>
+      </table>
+    <hr>
+    <h4>Вариант 3</h4>
+      <table>
+      <thead>
+        <tr>
+          <th id="th0">&nbsp;&nbsp;</th>
+          <th id="th0">&nbsp;&nbsp;</th>
+          <th id="th0">&nbsp;&nbsp;</th>
+          <th id="th0">&nbsp;&nbsp;</th>
+          <th id="th0">&nbsp;&nbsp;</th>
+          <th id="th0">&nbsp;&nbsp;</th>
+          <th id="th0">&nbsp;&nbsp;</th>
+          <th id="th0">&nbsp;&nbsp;</th>
+          <th id="th0">&nbsp;&nbsp;</th>
+          <th id="th0">&nbsp;&nbsp;</th>
+        </tr>      
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="6" id="td1">1</td>
+          <td id="td2">2</td>
+          <td rowspan="3" colspan="3" id="td3">3</td>     
+        </tr>
+        <tr>
+          <td colspan="3" id="td4">4</td>
+          <td rowspan="2" id="td5">5</td>
+          <td colspan="2" id="td6">6</td>
+          <td id="td7">7</td>
+        </tr>
+        <tr>
+          <td rowspan="2" colspan="3" id="td8">8</td>
+          <td colspan="2" id="td9">9</td>
+          <td id="td10">10</td>
+        </tr>
+        <tr>
+          <td colspan="4" id="td11">11</td>
+          <td colspan="3" id="td12">12</td>
+        </tr>
+        <tr>
+          <td colspan="3" id="td13">13</td>
+          <td id="td14">14</td>
+          <td colspan="6" id="td15">15</td>
+      </tbody>
+      <tfoot>
+      </tfoot>
+
+    </table>
+
+    <hr>
+    <h2>Таблицы 02 </h2>
+      <table>
+        <colgroup>
         <col span="1">
         <col span="1"style="border: 3px solid black; background: rgb(216, 216, 216)">
       </colgroup>

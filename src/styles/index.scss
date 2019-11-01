@@ -2,8 +2,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1,
-h2,
-h3 {
+h2 {
   color: rgb(58, 58, 189);
 }
 h3 {
@@ -42,7 +41,79 @@ th {
   padding: 5px;
   border: 1px solid black;
 }
-
+figcaption {
+  font-style: italic;
+  font-size: 15px;
+}
+#th0 {
+  background: rgb(255, 255, 255);
+  border: 1px solid white;
+}
+#td1 {
+  background: yellow;
+  border: 1px solid yellow;
+}
+#td2 {
+  background: rgb(255, 115, 0);
+  border: 1px solid yellow;
+}
+#td3 {
+  padding: 0px;
+  background: rgb(187, 255, 0);
+  border: 1px solid yellow;
+}
+#td4 {
+  background: rgb(0, 255, 191);
+  border: 1px solid yellow;
+}
+#td4 {
+  background: rgb(0, 119, 255);
+  border: 1px solid yellow;
+}
+#td5 {
+  background: rgb(204, 0, 255);
+  border: 1px solid yellow;
+}
+#td6 {
+  background: rgb(255, 0, 200);
+  border: 1px solid yellow;
+}
+#td7 {
+  background: rgb(255, 251, 0);
+  border: 1px solid yellow;
+}
+#td8 {
+  background: rgb(170, 156, 209);
+  border: 1px solid yellow;
+}
+#td9 {
+  background: rgb(224, 160, 253);
+  border: 1px solid yellow;
+}
+#td10 {
+  background: rgb(197, 136, 194);
+  border: 1px solid yellow;
+}
+#td11 {
+  background: rgb(139, 236, 115);
+  border: 1px solid yellow;
+}
+#td12 {
+  background: rgb(83, 240, 219);
+  border: 1px solid yellow;
+}
+#td13 {
+  background: rgb(40, 172, 102);
+  border: 1px solid yellow;
+}
+#td14 {
+  background: rgb(51, 127, 146);
+  border: 1px solid yellow;
+}
+#td15 {
+  background: rgb(172, 169, 34);
+  border: 1px solid yellow;
+}
 /* col {
   border: 3px solid blue;
 } */
