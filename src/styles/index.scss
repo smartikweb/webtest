@@ -21,6 +21,12 @@ h4 {
   //background: lightyellow;
   padding: 5px;
 }
+// nav a {
+//   color: white;
+// }
+.aWhite {
+  color: white;
+}
 #pWithStyle {
   border-left: 5px solid #ffa500;
   margin-left: 20px;
@@ -29,19 +35,24 @@ h4 {
   font-style: italic;
 }
 .pWithBg {
-  background: palegoldenrod;
-  font-size: 18px;
+  background: #eae5db;
+  //font-size: 18px;
   padding: 10px;
+  
 }
 p.pWithBg {
-  text-align: right;
+  text-align: center;
 }
 .text-align-center {
   text-align: center;
 }
+a {
+  font-style: italic;
+  color: blue;
+}
 
 td.pWithBg {
-  font-size: 20px;
+  // font-size: 20px;
   font-style: italic;
 }
 header,
@@ -66,8 +77,14 @@ footer {
 span {
   background-color: lightyellow;
 }
+.bg {
+  background: orange;
+  text-align: center;
+}
+
+
 #articles {
-  background-color: lightyellow;
+  //background-color: lightyellow;
   padding: 10px;
 }
 #SectionWithBg {
@@ -77,18 +94,28 @@ span {
   background-image: url("http://runarium.ru/img/kultura/drakkar1.jpg");
   background-repeat: no-repeat;
   padding: 10px;
+  margin-left: 30px;
   //border-radius: 20px;
 }
 .HWhite {
   color: white;
   font-size: 20px;
   margin-left: 20px;
+
+}
+.bg h2 {
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
 }
 .HWhite li {
   color: antiquewhite;
 }
 .borderRadius {
   border-radius: 25px;
+}
+figure {
+//  
 }
 p {
   color: rgb(66, 66, 66);
