@@ -1,5 +1,12 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  //padding: 0;
+  //margin: 0;
+}
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  //font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  //background: antiquewhite;
 }
 h1,
 h2 {
@@ -7,6 +14,81 @@ h2 {
 }
 h3 {
   color: rgb(255, 105, 5);
+}
+h4 {
+  //color: white;
+  font-size: 18px;
+  //background: lightyellow;
+  padding: 5px;
+}
+#pWithStyle {
+  border-left: 5px solid #ffa500;
+  margin-left: 20px;
+  padding-left: 10px;
+  font-size: 18px;
+  font-style: italic;
+}
+.pWithBg {
+  background: palegoldenrod;
+  font-size: 18px;
+  padding: 10px;
+}
+p.pWithBg {
+  text-align: right;
+}
+.text-align-center {
+  text-align: center;
+}
+
+td.pWithBg {
+  font-size: 20px;
+  font-style: italic;
+}
+header,
+main,
+aside,
+footer {
+  border: 1px solid goldenrod;
+  padding: 10px;
+  margin: 10px 0;
+}
+main {
+  float: left;
+  width: 70%;
+}
+aside {
+  float: right;
+  width: 25%;
+}
+footer {
+  clear: both;
+}
+span {
+  background-color: lightyellow;
+}
+#articles {
+  background-color: lightyellow;
+  padding: 10px;
+}
+#SectionWithBg {
+  height: 400px;
+  width: 650px;
+  background-color: palegoldenrod;
+  background-image: url("http://runarium.ru/img/kultura/drakkar1.jpg");
+  background-repeat: no-repeat;
+  padding: 10px;
+  //border-radius: 20px;
+}
+.HWhite {
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.HWhite li {
+  color: antiquewhite;
+}
+.borderRadius {
+  border-radius: 25px;
 }
 p {
   color: rgb(66, 66, 66);
