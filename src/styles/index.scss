@@ -17,7 +17,10 @@ footer {
   padding: 10px;
   margin: 5px;
 }
-
+header,
+footer {
+  background: coral;
+}
 main {
   float: left;
   width: 70%;
@@ -41,6 +44,13 @@ figcaption {
   font-size: 15px;
   text-align: center;
 }
+a {
+  color: coral;
+}
+nav a {
+  color: aliceblue;
+  text-align: center;
+}
 
 #aside {
   background-color: blanchedalmond;
@@ -56,4 +66,22 @@ figcaption {
 }
 .textWhite {
   color: white;
+  text-align: center;
+  margin: 5px;
+}
+
+table {
+  width: 100%;
+  border: 4px double rgb(233, 139, 32);
+  border-collapse: collapse;
+}
+th {
+  text-align: center;
+  background: rgb(240, 225, 202);
+  padding: 5px;
+  border: 1px solid rgb(233, 139, 32);
+}
+td {
+  padding: 5px;
+  border: 1px solid rgb(233, 139, 32);
 }
