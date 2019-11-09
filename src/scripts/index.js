@@ -58,7 +58,7 @@ userInfo();
 
 console.log("*****");
 
-function userIfo2() {
+function userInfo2() {
   console.log(
     "His name is" +
       " " +
@@ -70,4 +70,4 @@ function userIfo2() {
     user.birthday
   );
 }
-userIfo2();
+userInfo2();
