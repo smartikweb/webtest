@@ -6,6 +6,7 @@ h2 {
   color: rgb(253, 117, 6);
   text-align: center;
   text-transform: capitalize;
+  font-size: 3vw;
 }
 h3,
 h4,
@@ -104,6 +105,44 @@ nav a {
 //   min-width: 50px;
 //   border: 1px solid crimson;
 // }
+
+#serifFont {
+  font-family: "Times New Roman", Times, Georgia, serif;
+}
+
+#sansSerifFont {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#monospaseFont {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.font-italic {
+  font-style: italic;
+}
+.font-caps {
+  font-variant: small-caps;
+}
+.font-oblique {
+  font-style: oblique;
+}
+.font-example {
+  font: italic normal bold 18px Georgia, serif;
+}
+.font-bold {
+  font-weight: 600;
+}
+
+// i {
+//   font-size: 40px;
+// }
+
+i.fab,
+i.fas {
+  border: 1px solid rgb(255, 102, 0);
+  font-size: 50px;
+}
 
 #aside {
   background-color: blanchedalmond;
