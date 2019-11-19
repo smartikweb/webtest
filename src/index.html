@@ -18,7 +18,7 @@
       alert("Hello");
     </script> -->
   </head>
-  <body>
+  <body onload="onPageLoad()">
     <header>
       <!-- <div>Прекрасное место для отдыха</div> -->
       <h1 class="textWhite">Салоу</h1>
@@ -98,7 +98,11 @@
           Одна из причин, по которой сюда с удовольствием едут туристы с детьми
           — парк развлечений «Порт Авентура» — самый большой на юге Европы.
         </p>
-        <i class="fas fa-anchor"></i>
+        <h4>
+          JavaScript Event onmouseover
+        </h4>
+        <!-- JavaScript Event onmouseover -->
+        <i class="fas fa-anchor" onmouseover="overI()" onmouseout="outI()"></i>
         <p>
           Пляжи с песком золотистого цвета, пологим заходом в море и чистой
           водой, пожалуй, главная достопримечательность Коста-Дорады. Добавьте к
@@ -110,6 +114,33 @@
         </p>
       </section>
       <section>
+        <section class="paddingInSection">
+          <!-- JavaScript Events-->
+          <input
+            type="text"
+            value="Hello"
+            onchange="validateField(this.value)"
+          />
+          <button onclick="buttonClick()">
+            Click me!
+          </button>
+          <input
+            type="button"
+            value="I am so different"
+            onclick="buttonClick()"
+          />
+          <input
+            type="button"
+            value="What date is today"
+            onclick="showTodaysDate()"
+          />
+
+          <input
+            type="text"
+            onkeydown="console.log('Key down')"
+            onkeyup="console.log('Key up')"
+          />
+        </section>
         <!-- Articles Section  -->
         <article>
           <h2>Салоу - тристический центр Коста Дорада</h2>

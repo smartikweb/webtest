@@ -1,4 +1,5 @@
 import "../styles/index.scss";
+import "./events";
 
 let user = {
   firstName: "Mark",
