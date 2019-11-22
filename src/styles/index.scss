@@ -49,6 +49,41 @@ p {
   // direction: rtl;
   // text-indent: 20px;
 }
+//Descendant Selector
+section h4 {
+  color: rgb(160, 14, 14);
+}
+section div {
+  color: orange;
+}
+//Child Selector
+
+.ol-styled > li {
+  color: blue;
+}
+
+.ol-styled > ul > li {
+  color: lightseagreen;
+}
+
+.childSelector > div {
+  color: blueviolet;
+}
+div + p {
+  color: aqua;
+}
+div ~ span {
+  color: teal;
+}
+// .inner-combinator {
+//   background-color: coral;
+// }
+// span + section {
+//   background-color: cyan;
+// }
+// span ~ div {
+//   background-color: darkgreen;
+// }
 mark {
   background: rgb(255, 228, 179);
 }
@@ -67,6 +102,23 @@ nav a {
   text-transform: uppercase;
   margin: 10px;
 }
+// .ol-styled > li {
+//   color: chocolate;
+// }
+
+#sectionBackground {
+  background-color: lightgray;
+}
+.buttonDisign {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.fas fa-lightbulb {
+  color: yellow;
+  font-size: 200px;
+  background: chartreuse;
+}
+
 // #sectionForHeight {
 //   //height: 300px;
 //   border: 2px solid lightsalmon;

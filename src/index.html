@@ -68,6 +68,86 @@
           Максимальная высота
         </div> -->
       <!-- </section> -->
+      <h2>CSS Combinators</h2>
+      <section>
+        <h4>Descendant Selector</h4>
+        <div>I demonstrate a Descendant Selector</div>
+      </section>
+      <section class="childSelector">
+        <h4>Child Selector</h4>
+        <b>Первый список</b>
+        <ol class="ol-styled">
+          <li>Пляжи</li>
+          <li>Развлечения</li>
+          <li>Рестораны</li>
+          <li>Достопримечательности</li>
+          <ul>
+            <li>Море</li>
+            <li>Солнце</li>
+            <li>Песок</li>
+            <li>Воздух</li>
+          </ul>
+        </ol>
+        <div>
+          I am a div / Child Selector
+        </div>
+        <span>General Sibling Selector 2</span>
+        <p>I am after div /Adjacent Sibling Selector</p>
+        <br />
+        <b>Второй список</b>
+        <ul class="ol-styled">
+          <li>Море</li>
+          <ul>
+            <li>Рыбки</li>
+            <li>Креветки</li>
+          </ul>
+          <li>Солнце</li>
+          <li>Песок</li>
+          <li>Воздух</li>
+        </ul>
+      </section>
+      <section class="adjacentSiblingSelector">
+        <h4>Adjacent Sibling Selector</h4>
+        <div>
+          I am after div. I have p after me.
+        </div>
+        <p>I am after div /Adjacent Sibling Selector</p>
+      </section>
+      <section>
+        <h4>General Sibling Selector</h4>
+        <div>
+          General Sibling Selector/ after me
+        </div>
+        <span>General Sibling Selector</span>
+      </section>
+      <hr />
+      <section>
+        <!-- Learning DOM -->
+        <ol class="ol-styled">
+          <li>Пляжи</li>
+          <li>Развлечения</li>
+          <li>Рестораны</li>
+          <li>Достопримечательности</li>
+          <ul>
+            <li>Море</li>
+            <li>Солнце</li>
+            <li>Песок</li>
+            <li>Воздух</li>
+          </ul>
+        </ol>
+        <p class="orange-text">I am a orange text</p>
+        <p id="specialP">I am a special paragraph</p>
+        <a id="linkToSomewhere" href="#">The empty link</a>
+        <p class="orange-text">I am a orange text2</p>
+        <br />
+        <button onclick="applyCss()">Add CSS</button>
+        <br />
+        <button onclick="setHref()">Set Href to anchor tag</button>
+        <br />
+        <button id="newText" onclick="changeTextAndStyles()">
+          Change text in me!
+        </button>
+      </section>
       <section>
         <!-- Learning fonts and icons -->
         <!-- <div id="serifFont">Serif параграф</div>
@@ -89,6 +169,7 @@
           пустынностью и ощущением полного одиночества среди песчаных дюн.
         </p>
         <i class="fab fa-font-awesome"></i>
+        <i class="fas fa-lightbulb"></i>
         <p id="monospaseFont" class="font-caps">
           Одна из причин, по которой сюда с удовольствием едут туристы с детьми
           — парк развлечений «Порт Авентура» — самый большой на юге Европы.
@@ -136,6 +217,7 @@
           />
 
           <input
+            name="hrefInputFields"
             type="text"
             onkeydown="console.log('Key down')"
             onkeyup="console.log('Key up')"
