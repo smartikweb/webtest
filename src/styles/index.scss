@@ -1,234 +1,60 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
-h1,
-h2 {
-  color: rgb(253, 117, 6);
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 3vw;
-}
-h3,
-h4,
-h5,
-h6 {
-  color: gray;
-  letter-spacing: 3px;
-  text-align: center;
-  text-transform: capitalize;
+body {
+  width: 80vw;
 }
 
-header,
-main,
-aside,
-footer {
-  border: 1px solid burlywood;
-  padding: 10px;
-  margin: 5px;
-}
-header,
-footer {
-  background: coral;
-}
-main {
-  float: left;
-  width: 70%;
-}
-aside {
-  float: right;
-  width: 25%;
-}
-footer {
-  clear: both;
-}
-p {
-  font-size: 16px;
-  line-height: 1.5;
-  text-indent: 25px;
-  // word-spacing: 5px;
-  // direction: rtl;
-  // text-indent: 20px;
-}
-//Descendant Selector
-section h4 {
-  color: rgb(160, 14, 14);
-}
-section div {
-  color: orange;
-}
-//Child Selector
-
-.ol-styled > li {
-  color: blue;
-}
-
-.ol-styled > ul > li {
-  color: lightseagreen;
-}
-
-.childSelector > div {
-  color: blueviolet;
-}
-div + p {
-  color: aqua;
-}
-div ~ span {
-  color: teal;
-}
-// .inner-combinator {
-//   background-color: coral;
-// }
-// span + section {
-//   background-color: cyan;
-// }
-// span ~ div {
-//   background-color: darkgreen;
-// }
-mark {
-  background: rgb(255, 228, 179);
-}
-figcaption {
-  font-style: italic;
-  font-size: 15px;
-  text-align: center;
-}
-a {
-  color: coral;
-}
-nav a {
-  color: aliceblue;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  margin: 10px;
-}
-// .ol-styled > li {
-//   color: chocolate;
-// }
-
-#sectionBackground {
-  background-color: lightgray;
-}
-.buttonDisign {
-  font-size: 18px;
-  text-transform: uppercase;
-}
-.fas fa-lightbulb {
-  color: yellow;
-  font-size: 200px;
-  background: chartreuse;
-}
-
-// #sectionForHeight {
-//   //height: 300px;
-//   border: 2px solid lightsalmon;
-// }
-
-// #widthHeigtTest {
-//   // background: rgb(253, 217, 187);
-//   border: 5px solid rgb(236, 223, 205);
-//   width: 200px;
-//   height: 300px;
-//   padding: 20px 10px 20px 10px;
-//   margin: 5px;
-//   outline-style: solid;
-//   outline-color: rgb(236, 22, 58);
-//   outline-width: thin;
-// }
-// .text-center {
-//   text-align: center;
-// }
-// .text-left {
-//   text-align: left;
-// }
-// .text-right {
-//   text-align: right;
-// }
-// .text-lowercase {
-//   text-transform: lowercase;
-// }
-// .text-capitalize {
-//   text-transform: capitalize;
-// }
-// #maxHeightTest {
-//   max-width: 200px;
-//   max-height: 200px;
-//   min-height: 50px;
-//   min-width: 50px;
-//   border: 1px solid crimson;
-// }
-
-#serifFont {
-  font-family: "Times New Roman", Times, Georgia, serif;
-}
-
-#sansSerifFont {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-#monospaseFont {
-  font-family: "Courier New", Courier, monospace;
-}
-
-.font-italic {
-  font-style: italic;
-}
-.font-caps {
-  font-variant: small-caps;
-}
-.font-oblique {
-  font-style: oblique;
-}
-.font-example {
-  font: italic normal bold 18px Georgia, serif;
-}
-.font-bold {
-  font-weight: 600;
-}
-.paddingInSection {
-  padding: 30px;
-}
-
-// i {
-//   font-size: 40px;
-// }
-
-i.fab,
-i.fas {
-  border: 1px solid rgb(255, 102, 0);
-  font-size: 50px;
-}
-
-#aside {
-  background-color: blanchedalmond;
-}
-.textBold {
-  font-weight: 600;
-}
-.imgFormat {
-  width: 450px;
-  height: 300px;
-  float: left;
-  padding: 5px;
-}
-.textWhite {
-  color: white;
-  text-align: center;
-  margin: 5px;
-}
-
-table {
+.image {
+  position: relative;
   width: 100%;
-  border: 4px double rgb(233, 139, 32);
-  border-collapse: collapse;
+  top: 10%;
+  margin-top: 20px;
 }
-th {
+
+h2 {
+  position: absolute;
+  width: 100px;
+  padding: 5px;
+  top: 20px;
+  left: 280px;
+  width: 100%;
+  background: white;
+  color: orangered;
+}
+hr {
+  position: relative;
+  top: 20px;
+  width: 700px;
+}
+i {
+  position: absolute;
+  top: 0;
+  left: 320px;
+  font-size: 36px;
+  color: orangered;
+  background: white;
+  padding: 15px;
+  border-radius: 50px;
+}
+.delimiter {
+  position: absolute;
+  background-color: rgb(255, 225, 225);
+}
+.nav-styled {
   text-align: center;
-  background: rgb(240, 225, 202);
-  padding: 5px;
-  border: 1px solid rgb(233, 139, 32);
+  background: coral;
+  margin: 20px 0;
+  padding: 10px;
+  width: 100%;
 }
-td {
+.nav-styled a {
   padding: 5px;
-  border: 1px solid rgb(233, 139, 32);
+  color: white;
+  text-transform: uppercase;
+}
+.menu-stick {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
